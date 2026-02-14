@@ -15,15 +15,16 @@ class PrimeNumbersCheck
 			{
 				if(i%j==0)
 				{
-     isPrime=false;
-     break;
-			}
+              isPrime=false;
+               break;
+			   }
    }
-if(isPrime)
- {
-				System.out.println(i);
-}
-}
-scan.close();
-}
-}
+      if(isPrime)
+     {
+				      System.out.println(i);
+
+        }
+       }
+         scan.close();
+     }
+       }
